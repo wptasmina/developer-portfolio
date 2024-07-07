@@ -1,11 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 /* font-family: "Open Sans", sans-serif; */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
 }
-:root{
-    
+:root {
+  --derk-1: #181818;
+  --derk-2: #474747;
+  --derk-3: #757575;
+  --derk-4: #a3a3a3;
+  --derk-5: #d1d1d1;
+  --derk-6: #e8e8e8;
+  --derk-7: #f3f3f3;
+  --white: #ffffff;
+  --bg-color: #fff8f3;
+  --bg-prymary: #fd6e0a;
 }
