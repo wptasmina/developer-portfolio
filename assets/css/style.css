@@ -59,17 +59,15 @@ img {
   margin-left: 30px;
 }
 .header {
-  max-width: 1400px;
+  width: 100%;
   background-color: var(--bg-color);
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-position: top left, bottom right;
   background-repeat: no-repeat;
 }
 .contioner{
-  width: 68%;
-  border: 1px solid black;
+  width: 80%;
   margin: 0 auto;
-
 }
 .benner-title {
   color: rgb(71, 71, 71);
@@ -144,19 +142,20 @@ img {
   background: var(--white);
 }
 .about-container{
+
   background: var(--bg-color);
+  padding: 100px;
 }
 .section{
-  margin-block: 120px;
+  margin-top: 100px;
 } 
  .section-title, .title{
   color: var(--derk-1);
+  margin-bottom: 30px;
   font-size: 35px;
   font-weight: 700;
   text-align: center;
-  margin-top: 130px;
-  margin-bottom: 30px;
- }
+}
  .section-text{
    color: var(--derk-3);
    font-weight: 400;
@@ -170,7 +169,6 @@ img {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin-bottom: 130px;
  }
 /* what i do section */
 .card-section{
@@ -209,11 +207,16 @@ img {
   }
 
   /* Resumme section  */
-.card-section {
+.resume{
   background: var(--white);
+}
+.resume h1{
+  margin-bottom: 70px;
 }
   .resume-body{
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
   }
   .resume-list{
     color: var(--derk-2);
@@ -237,5 +240,39 @@ img {
     margin-bottom: 20px;
   }
 .excprienc-card{
-  margin-left: 15px;
+  margin-left: 35px;
+}
+/* footer section  */
+#footer{
+  background: #FFF8F3;
+
+}
+.footer-contant{
+  display: flex;
+  padding-block: 100px;
+}
+.text-left {
+  text-align: left !important;
+  padding-left: 0;
+}
+.right-side-text{
+  width: 50%;
+  margin-right: 50px;
+}
+.icons a{
+  margin-right: 50px;
+}
+.left-side-text{
+  width: 50%;
+}
+input, textarea{
+  display: block;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 8px;
 }
