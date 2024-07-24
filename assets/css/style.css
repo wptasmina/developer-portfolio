@@ -66,7 +66,8 @@ img {
   background-repeat: no-repeat;
 }
 .contioner{
-  width: 80%;
+  width: 100%;
+  max-width: 80%;
   margin: 0 auto;
 }
 .benner-title {
@@ -85,7 +86,7 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.nav-bar span {
+ span {
   color: var(--bg-prymary);
 }
 .nev-items {
@@ -115,12 +116,12 @@ img {
 }
 .benner-title {
   color: var(--derk-2);
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 600;
 }
 .hero-title {
   color: var(--derk-1);
-  font-size: 85px;
+  font-size: 65px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -265,7 +266,7 @@ img {
 .left-side-text{
   width: 50%;
 }
-input, textarea{
+input[type="text"], input[type="password"], textarea{
   display: block;
   width: 100%;
   background: #fff;
@@ -275,4 +276,295 @@ input, textarea{
   padding: 20px 30px;
   cursor: pointer;
   border-radius: 8px;
+}
+.hide{
+  display: none;
+}
+    /* Media Screen and Mobile  */
+@media screen and (max-width: 576px){
+  .header{
+    background-image: none;
+    padding-inline: 20px;
+  }
+  .nav-bar {
+    padding-block: 10px;
+}
+  .nev-items{
+    display: none;
+  }
+  .nav-title{
+    margin: 0;
+  }
+  .benner-section {
+    flex-direction: column;
+    margin-inline: 0;
+    margin-top: 2.2rem;
+  }
+  .benner-title {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .hero-title {
+    font-size: 45px;  
+    margin-block: 10px;
+  }
+  .sectioon-desc {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+  }
+  .btn-prymary {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .btns{
+    margin-left: 0;
+  }
+   .benner-section img{
+    margin-top: 35px;
+   }
+   .hero-img {
+    width: 100%;
+  }
+  .section {
+    margin-top: 50px;
+  }
+  .contioner {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .about-container {
+    padding: 35px 0;
+  }
+  .section-text {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 30px;
+  }
+  .about-items{
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-inline: 10px;
+  }
+  .item-title{
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .item-desc{
+    font-size: 16px;
+  }
+  .card-body {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .resume h1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 40px;
+    padding-inline: 15px;
+  }
+  .resume-body {
+    /* margin-bottom: 20px; */
+    flex-direction: column;
+    padding-inline: 30px;
+  }
+  .resume-list {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .resume-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .sub-title {
+    font-size: 18px;
+  }
+  .resume-card  > .card-desc{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  hr{
+    margin-bottom: 30px;
+  }
+  .excprienc-card {
+    margin-left: 0px;
+  }
+  .resume .btn-secendary {
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .footer-contant {
+    padding-block: 50px;
+    flex-direction: column;
+  }
+  .text-left {
+    text-align: left !important;
+    padding-inline: 20px;
+    margin-bottom: 25px;
+  }
+  .right-side-text {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .icons a {
+    margin-right: 20px;
+    padding-inline: 20px;
+  }
+  .left-side-text {
+    width: 100%;
+  }
+  form{
+    padding-inline: 18px;
+
+  }
+}
+    /* Media Screen and Tablet  */
+@media screen and (min-width:576px) and (max-width: 992px){
+  .header{
+    background-image: none;
+    padding-inline: 20px;
+  }
+  .nav-bar {
+    padding-block: 10px;
+    margin-left: 19%;
+  }
+  .nev-items{
+    display: none;
+  }
+  .nav-title{
+    margin: 0;
+  }
+  .benner-section {
+    flex-direction: column;
+    margin-inline: 0;
+    margin-top: 2.2rem;
+  }
+  .benner-title {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .hero-title {
+    font-size: 45px;  
+    margin-block: 10px;
+  }
+  .sectioon-desc {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+  }
+  .btn-prymary {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .btns{
+    padding: 14px 24px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+   .benner-section img{
+    margin-top: 35px;
+   }
+   .hero-img {
+    width: 60%;
+  }
+  .section {
+    margin-top: 50px;
+  }
+  .contioner {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .about-container {
+    padding: 35px 0;
+  }
+  .section-text {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 30px;
+  }
+  .about-items{
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-inline: 30px;
+  }
+  .item-title{
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .item-desc{
+    font-size: 16px;
+  }
+  .card-body {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .resume h1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 40px;
+    padding-inline: 15px;
+  }
+  .resume-body {
+    flex-direction: column;
+    padding-inline: 30px;
+  }
+  .resume-list {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .resume-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .sub-title {
+    font-size: 18px;
+  }
+  .resume-card  > .card-desc{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  hr{
+    margin-bottom: 30px;
+  }
+  .excprienc-card {
+    margin-left: 0px;
+  }
+  .resume .btn-secendary {
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .footer-contant {
+    padding-block: 50px;
+    flex-direction: column;
+  }
+  .text-left {
+    text-align: left !important;
+    padding-inline: 20px;
+    margin-bottom: 25px;
+  }
+  .right-side-text {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .icons a {
+    margin-right: 20px;
+    padding-inline: 20px;
+  }
+  .left-side-text {
+    width: 100%;
+  }
+  form{
+    padding-inline: 18px;
+
+  }
 }
